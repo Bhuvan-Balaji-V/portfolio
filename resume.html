@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Bhuvan Balaji V - Resume. Full Stack Developer & AI/ML Engineer with experience in FastAPI, LangChain, and computer vision." />
+<title>Resume — Bhuvan Balaji V</title>
+<link rel="stylesheet" href="style.css" />
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<header class="site-header small">
+<div class="container header-inner">
+<div class="brand">
+<h1>Resume — Bhuvan Balaji V</h1>
+<p class="sub">B.Tech CSE • Bengaluru, Karnataka</p>
+</div>
+<nav class="nav">
+<a href="index.html">Home</a>
+<a href="resume.html" class="active">Resume</a>
+<a href="biodata.html">Bio-data</a>
+</nav>
+</div>
+</header>
+
+<main class="container resume">
+<section class="section">
+<h2>Education</h2>
+<div>
+<h4>Bangalore Institute of Technology (BIT)</h4>
+<p><strong>B.Tech Computer Science & Engineering</strong> | Expected: 2026</p>
+<p><strong>CGPA:</strong> 8.1</p>
+</div>
+</section>
+
+<section class="section">
+<h2>Technical Skills</h2>
+<div class="skills-grid">
+<div>
+<h4>Languages & Frameworks</h4>
+<p>Python, JavaScript, FastAPI, Flask, Pydantic</p>
+</div>
+<div>
+<h4>Databases</h4>
+<p>PostgreSQL, Supabase, SQLAlchemy (Async), SQLite</p>
+</div>
+<div>
+<h4>AI & CV</h4>
+<p>LangChain, PyTorch, YOLO, OpenCV, RAG (ChromaDB)</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>Projects</h2>
+<div class="project-item">
+<h4>AI-Powered School Management ERP</h4>
+<p>Designed and built an asynchronous backend using FastAPI with a service-oriented architecture. Implemented a 4-layer LangChain agent to translate natural language queries into secure DB actions. Tech stack: Python (Asyncio), FastAPI, LangChain, PostgreSQL (Supabase), SQLAlchemy, Docker, Pytest.</p>
+</div>
+
+<div class="project-item">
+<h4>Real-Time Helmet Detection</h4>
+<p>Developed a computer vision application that detects helmet compliance using a custom YOLO model. Exposed via a Flask REST API which returns JSON with detection results and annotated images using OpenCV.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>Internships & Experience</h2>
+<ul class="list">
+<li><strong>Marketing Intern</strong> — Savithru Technologies (Dec 2024 – Feb 2025). Contributed to Acadamis ERP: market research, client outreach, and B2B pitching.</li>
+<li><strong>Core Contributor & System Architect</strong> — AcadionAI (2025 – Present). Modular backend, RLS, Razorpay Route integration, RBAC implementation.</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>Achievements & Activities</h2>
+<ul class="list">
+<li>Publicity Relations – Sub-Core Committee Member, BIT MANTHAN (Apr 2025)</li>
+<li>College Basketball Team Member, Bangalore Institute of Technology (2023 – Present)</li>
+<li>Vice President & Founding Member, BIT Podcast Club (2024 – Present)</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>Soft Skills</h2>
+<p>Leadership, Strategic Thinking, Adaptability, Public Speaking, Problem Solving, Attention to Detail</p>
+</section>
+
+</main>
+
+<footer class="footer">
+<p>&copy; 2025 Bhuvan Balaji V</p>
+</footer>
+
+<script>
+$(function(){
+$('.project-item').hide().each(function(i){
+$(this).delay(i*200).fadeIn(350);
+});
+});
+</script>
+</body>
+</html>
